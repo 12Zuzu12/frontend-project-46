@@ -5,4 +5,3 @@
 <a href="https://codeclimate.com/github/12Zuzu12/frontend-project-46/maintainability"><img src="https://api.codeclimate.com/v1/badges/b096d879206e0b05e5e3/maintainability" /></a>
 
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/b096d879206e0b05e5e3/maintainability)](https://codeclimate.com/github/12Zuzu12/frontend-project-46/maintainability)
