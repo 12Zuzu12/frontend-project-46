@@ -8,4 +8,5 @@
 <a href="https://codeclimate.com/github/12Zuzu12/frontend-project-46/test_coverage"><img src="https://api.codeclimate.com/v1/badges/b096d879206e0b05e5e3/test_coverage" /></a>
 
 
+
 https://asciinema.org/a/lTpAPpYwFK7mOjUsyUeFNhH3U
