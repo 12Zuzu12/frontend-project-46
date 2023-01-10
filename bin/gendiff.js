@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 
 import { Command } from 'commander';
-import { gendiff } from '../src/index.js';
+//import { gendiff } from '../src/index.js';
 import path from 'path';
 import treeСoincidencesYaml from '../parse.js';
+import collectDeepTree from '../src/bulidTree.js'
+import readFilePath from '../parse1.js';
+
+
 
 const program = new Command();
 
@@ -17,10 +21,11 @@ program
  .option('-f, --format <type>', 'output format')
  .action((filepath1, filepath2) => {
   if (path.extname(filepath1) === '.json') {
-    console.log(gendiff(filepath1, filepath2));
+  // console.log(gendiff(filepath1, filepath2));
+   console.log(collectDeepTree(filepath1, filepath2));
     
  }else if (path.extname(filepath1) === '.yaml'){
-   console.log(treeСoincidencesYaml(filepath1, filepath2));
+   //console.log(treeСoincidencesYaml(filepath1, filepath2));
  }
 });
 
