@@ -7,7 +7,9 @@ import _ from 'lodash';
 function getPath(filepath) {
   return (path.resolve(process.cwd(), filepath));// указывает абсолютный путь до
 };
+
 const readFilePath = (filepath) => fs.readFileSync((getPath(filepath)),'utf-8');
+
 const treeСoincidencesYaml = (parse, parse2) => {
 const readFile = readFilePath(parse); //указываем путь где находится JSON файл
 const readFile2 = readFilePath(parse2);
